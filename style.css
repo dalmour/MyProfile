@@ -1,0 +1,284 @@
+
+/* GENERAL–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+	background-color: #D2E383;
+	color: black;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;;
+	font-size: 14;
+}
+
+.container {
+	width: 700px;
+	margin: auto;
+}
+
+.whitecards {
+	background-color: whitesmoke ;
+	margin: 24px auto;
+	padding: 24px;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.4);
+}
+
+h1 {
+	font-size: 24;
+	text-transform: uppercase;
+	color: #52602F;
+}
+
+h2 {
+	font-size: 20;
+	color: #52602F;
+}
+
+h3 {
+	color: grey;
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* INTRODUCTION –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.Dalma {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 500px
+}
+
+.dalmaintro {
+	text-align: justify;
+}
+
+.button {
+	text-decoration: none;
+	background-color: #D0706B;
+	color: darkred;
+	text-transform: uppercase;
+	font-weight: bolder;
+	display: inline-block;
+	border-radius: 12px;
+	padding: 16px 24px;
+	transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+	background-color: darkred;
+	color: white;
+}
+
+
+/* SECTION 2 – RUBY –––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.Ruby {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 500px
+}
+
+.rubysfav {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 15;
+}
+
+.rubysfav li {
+	margin: 0 16px;
+	display: inline;
+	text-align: center;
+}
+
+
+/* SECTION 3 – COUNTRIES –––––––––––––––––––––––––––––––––––––––––––––––––-*/
+
+.country {
+	background-color: whitesmoke ;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.4);
+}
+
+.july {
+	text-align: justify;
+}
+
+.august {
+	text-align: justify;
+
+}
+
+.cerro {
+	transition: transform 0.1s;
+}
+.cerro:hover {
+	transform: scale(1.6);
+}
+
+.mate {
+	transition: transform 0.1s;
+}
+.mate:hover {
+	transform: scale(1.6);
+}
+
+.sierras {
+	transition: transform 0.1s;
+}
+.sierras:hover {
+	transform: scale(1.6);
+}
+
+.templo {
+	transition: transform 0.1s;
+}
+.templo:hover {
+	transform: scale(1.6);
+}
+
+.pulpo {
+	transition: transform 0.1s;
+}
+.pulpo:hover {
+	transform: scale(1.6);
+}
+
+.farro {
+	transition: transform 0.1s;
+}
+.farro:hover {
+	transform: scale(1.6);
+}
+
+img {
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	margin: 20px;
+	border-radius: 500px
+}
+
+
+/* SECTION 4 – TUNES –––––––––––––––––––––––––––––––––––––––––––––––––-–––*/
+
+.music {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.facundo {
+	transition: transform 0.1s;
+}
+
+.facundo:hover {
+	transform: scale(1.2);
+}
+
+.peps {
+	transition: transform 0.1s;
+}
+
+.peps:hover {
+	transform: scale(1.2);
+}
+
+.disturbed {
+	transition: transform 0.1s;
+}
+
+.disturbed:hover {
+	transform: scale(1.2);
+}
+
+.music li {
+	margin: 0 16px;
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	transform: scale(1.2)
+}
+
+.spotify {
+	text-decoration: none;
+	background-color: #D0706B;
+	color: darkred;
+	text-transform: uppercase;
+	font-weight: bolder;
+	display: inline-block;
+	border-radius: 12px;
+	padding: 16px 24px;
+	
+}
+
+.spotify:hover {
+	background-color: darkred;
+	color: white;
+	
+}
+
+
+
+/* SECTION 5 – SOCIAL MEDIA –––––––––––––––––––––––––––––––––––––––––––––––––*/
+.sns {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.sns li {
+	margin: 0 16px;
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+}
+
+i {
+	font-size: 50px;
+	text-decoration: none;
+	color: #D0706B;
+}
+
+.fa-brands:hover {
+	color: darkred;
+}
+
+
+
+/*to change stuff when making the window big or small*/
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+
+
+	.Dalma {
+		width: 200;/* check which width/height is appropriate*/
+		height: 200;
+	}
+	.Ruby {
+		width: 200;/* check which width/height is appropriate*/
+		height: 200;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+
